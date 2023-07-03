@@ -1,2 +1,7 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-printfn "Hello from F#"
+﻿open ShuffleArray
+
+let MAX = 10_000
+let lst = [|1..MAX|]
+
+shuffleArray lst
+|> printfn "%A"
