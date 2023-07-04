@@ -1,4 +1,4 @@
-# TenThousandRandomNumbers
+# Ten Thousand Random Numbers
 This program will generate a list of 10,000 unique random numbers between 1-10,000 (inclusive).
 The output is printed to the console.
 
@@ -176,4 +176,3 @@ Output:
 ```F#
 [|3; 4; 2; 1; 5|]
 ```
-
